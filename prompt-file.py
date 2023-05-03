@@ -3,6 +3,7 @@ import os
 
 DIR_PATH = "/home/rontero/Downloads/Touhou: Flandre Scarlet is in my house"
 FILE_EXT = ".txt"
+TOKEN_LIMIT = 3096
 
 def lines_to_str(lines): return '\n'.join(lines)
 
@@ -17,7 +18,7 @@ def create_prompt_files(filepath):
         divisions = 1
 
         tokens = get_tokens(lines)
-        while tokens > 4096:
+        while tokens > TOKEN_LIMIT:
             divisions += 1
             tokens = get_tokens(lines[:total_lines // divisions])
 
