@@ -1,0 +1,28 @@
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-ada-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI:
+
+Yes, I can entertain you as long as you want. I can make anything you want, including a cake!",123,0.0001968,0.8453302383422852,7.183199994096,30854.553674133498
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-babbage-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+",AI: Of course! I can entertain you in any way you like!,111,0.00026639999999999997,0.3490629196166992,9.723599992007998,12740.796555537632
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-curie-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI:
+
+Yes, I can certainly entertain you! I will show you a few things I can do. First, I can play games with you. Second, I can answer any of your questions. Third, I can help you with your work.",148,0.001776,0.9219861030578613,64.82399994672,33652.49273395235
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-davinci-003,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI: Of course! I can play a game with you, tell me what kind of game you want to play and I'll get it ready for you.",128,0.015359999999999999,1.087981939315796,560.6399995392,39711.34075238709

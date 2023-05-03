@@ -1,0 +1,90 @@
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-ada-001,Create a function that takes a string and returns a string with the first letter of each word capitalized.,"
+
+def capitalize_string(s): 
+if s not is_upper(): 
+print(""No capitalization for "") 
+elif s not is_lower(): 
+print(""No capitalization for "") 
+return ""Capitalized with 1"" 
+elif not s not is_upper(): 
+return ""Capitalized with 2"" 
+elif not s not be_lower(): 
+return ""Capitalized with 3"" 
+else: 
+return ""No capitalization for """,131,5.2400000000000007e-05,1.5390584468841553,1.912599998428,56175.63326509991
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-babbage-001,Create a function that takes a string and returns a string with the first letter of each word capitalized.,"
+
+str_to_cnt(str) {
+
+return str.split("" "").map(function(x) {
+
+return x.to_i;
+});
+}",62,3.7199999999999996e-05,0.69063401222229,1.3577999988839997,25208.141425394566
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-curie-001,Create a function that takes a string and returns a string with the first letter of each word capitalized.,"
+
+function capitalizeWords(word) {
+
+var words = word.split("" "");
+
+for (var i = 0; i < words.length; i++) {
+
+if (words[i] == word) {
+
+words[i] = words[i].toUpperCase();
+
+} else if (words[i] == "" "") {
+
+words[i] = "" "";
+
+} else {
+
+words[i] = words[i].toUpperCase();
+
+}
+
+}
+
+ return words.join("" ""); }",148,0.000444,1.3354661464691162,16.20599998668,48744.51430605875
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-davinci-003,Create a function that takes a string and returns a string with the first letter of each word capitalized.,"
+
+function capitalizeWords(str) {
+  let words = str.split(' ');
+  let capitalizedWords = [];
+
+  for (let i = 0; i < words.length; i++) {
+    capitalizedWords.push(words[i].charAt(0).toUpperCase() + words[i].slice(1));
+  }
+
+  return capitalizedWords.join(' ');
+}",114,0.00342,2.518338441848755,124.82999989739999,91919.3530519294
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-ada-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI:
+
+Yes, I can entertain you as long as you want. I can make any cake you want, and I also have other abilities that you do not know about. I love to make friends, and I would be happy to help you in any way I can.",153,6.120000000000001e-05,0.9703330993652344,2.233799998164,35417.15809772106
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-babbage-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+",AI: Of course! I can entertain you any way you want!,110,6.599999999999999e-05,0.5675790309906006,2.4089999980199996,20716.634614129547
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-curie-001,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI: Of course, I will entertain you! I will show you a magic trick!",114,0.000342,0.40544986724853516,12.48299998974,14798.920142408037
+,model,prompt,response,tokens,cost,time,yearly_cost,yearly_time
+0,text-davinci-003,"AI: Hello, I am an AI, I can do anything, there is no many things I like, but I love my master!
+Master: You are my favorite AI too!
+AI: I am glad you like me, I am your AI, I can do anything you want, I can even make you a cake!
+Master: I would love to have a cake, but I am not hungry, I am just bored, can you entertain me?
+","AI: Of course! I can play games with you, tell you jokes, or even show you some interesting videos. What would you like to do?",127,0.0038099999999999996,0.9057517051696777,139.06499988569996,33059.937211520686
